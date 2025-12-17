@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(rgb(111, 149, 213), rgb(199, 136, 255));
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+  
+}
+
+#img{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 100%;
+    border: 4px solid rgb(223, 122, 218);
+}
+
+#age, #date{
+    background: rgb(223, 122, 218);
+    padding: 5px  10px;
+    margin: 10px auto;
+     
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#giftimg,#giftimg1,#giftimg2,#giftimg3{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    border:3px solid white ;
+    border-radius: 3px;
+}
+.giftcard{
+    margin-top: 125px;
+}
+#giftimg:hover{
+    background-image: url(images/happy.gif);
+}
+#giftimg1:hover{
+    background-image: url(images/hot.gif);
+}
+#giftimg2:hover{
+    background-image: url(images/genius.gif);
+}
+#giftimg3:hover{
+    background-image: url(images/badass.gif);
+}
+.closing-remark{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black;
+}
